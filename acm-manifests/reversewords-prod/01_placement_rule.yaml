@@ -10,4 +10,4 @@ spec:
   clusterSelector:
     matchExpressions: []
     matchLabels:
-      environment: "prod"
+      environment: "prd"
