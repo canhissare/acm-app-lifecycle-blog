@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: us-eu-region-clusters
+  name: us-br-region-clusters
   namespace: reverse-words-region
 spec:
   clusterConditions:

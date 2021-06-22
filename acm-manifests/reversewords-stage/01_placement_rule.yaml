@@ -8,11 +8,6 @@ spec:
     - type: "ManagedClusterConditionAvailable"
       status: "True"
   clusterSelector:
-    matchExpressions:
-      - key: region
-        operator: In
-        values:
-          - US
-          - BR
-    matchLabels: { }
-  clusterReplicas: 1
+    matchExpressions: []
+    matchLabels:
+      environment: "nonprod"
